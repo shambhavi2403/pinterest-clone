@@ -1,7 +1,7 @@
-"use client"
+'use client'
 import React, { useEffect, useState } from 'react'
 import PinImage from './../../components/PinDetail/PinImage'
-// import PinInfo from './../../components/PinDetail/PinInfo'
+ import PinInfo from './../../components/PinDetail/PinInfo'
 import { doc, getDoc, getFirestore } from 'firebase/firestore'
 import app from '@/app/Shared/firebaseConfig'
 import { HiArrowSmallLeft } from "react-icons/hi2";
@@ -46,3 +46,5 @@ function PinDetail({params}) {
 }
 
 export default PinDetail
+
+
